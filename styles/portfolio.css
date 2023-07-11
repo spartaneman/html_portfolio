@@ -2,7 +2,28 @@ h1{
     color: blueviolet;
 }
 
-
+/*This is css for Classes*/
 .bullet-point{
     font-weight: bold;
+}
+
+/*This is for id*/
+#war{
+    color: darkgreen;
+    font-weight: 800;
+}
+
+#fantasy{
+    color: goldenrod;
+    font-weight: 800;
+}
+
+/* id should be for single unique element per html file*/
+
+/*You can also select according to properties
+
+In this case the tag <a with the attribute draggable will be selected*/
+
+a[draggable]{
+    color: pink;
 }
