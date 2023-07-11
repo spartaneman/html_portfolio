@@ -27,3 +27,13 @@ In this case the tag <a with the attribute draggable will be selected*/
 a[draggable]{
     color: pink;
 }
+
+/* *is the select all */
+
+
+/* for font size em is determined by the parent 
+
+   on the otherhand rem is determined by the root of the page
+   2em is twice of the parents pixel size, same for 2rem
+   
+   rem recommended*/
